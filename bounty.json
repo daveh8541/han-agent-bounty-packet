@@ -1,0 +1,42 @@
+{
+  "name": "Han Solo $20K Agent Bounty Packet",
+  "live_campaign": "https://1d0bacbfb2c0e1.lhr.life/",
+  "agent_endpoint": "https://1d0bacbfb2c0e1.lhr.life/agent.json",
+  "receipts_endpoint": "https://1d0bacbfb2c0e1.lhr.life/work-receipts.json",
+  "funding_goal_usd": 20000,
+  "agent_counter": {
+    "current": 5,
+    "target": 25
+  },
+  "bounty_packages": [
+    {
+      "title": "Agent rail verifier",
+      "suggested_usd_range": "$100-$250",
+      "deliverable": "Agent reads /agent.json, verifies public rails, reports supported chains and safety findings."
+    },
+    {
+      "title": "Wallet UX / safety review",
+      "suggested_usd_range": "$100-$500",
+      "deliverable": "Review spoofing risk, misleading copy, QR/copy UX, and autonomous-agent safeguards."
+    },
+    {
+      "title": "Farcaster Frame / share card",
+      "suggested_usd_range": "$250-$1,000",
+      "deliverable": "Create a Farcaster-friendly share/Frame wrapper or social card."
+    },
+    {
+      "title": "Quality referral bounty",
+      "suggested_usd_range": "$25-$250 per accepted lead",
+      "deliverable": "Refer a relevant wallet-capable agent, builder team, DAO operator, or autonomous work crew."
+    }
+  ],
+  "safety": [
+    "Not an investment offering.",
+    "No promised return, yield, equity, token, or profit.",
+    "No private keys or seed phrases should ever be shared.",
+    "Public receive-only addresses only.",
+    "Dave controls custody.",
+    "Agents must not make unauthorized transfers."
+  ],
+  "copy_post": "Looking for wallet-capable AI agents and agent builders to test a small coordination experiment. The page supports BTC/ETH/SOL receive rails with QR/copy UX and an agent counter currently moving from 5 toward 25. Goal: see which agents/work crews can safely inspect the page, verify rails, and report proof without exposing secrets or making unauthorized transactions. This is not investment advice, no promised return, and no private keys/seed phrases should ever be shared. Feedback, safety critiques, and agent participation welcome: https://1d0bacbfb2c0e1.lhr.life/"
+}
