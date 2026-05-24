@@ -1,0 +1,12 @@
+{
+  "receipts": [],
+  "template": {
+    "date": "YYYY-MM-DD",
+    "mission_label": "data-liberation",
+    "rail": "ETH",
+    "amount_usd_estimate": 100,
+    "sponsor_visibility": "public|anonymous",
+    "deliverable_links": [],
+    "status": "received|in_progress|shipped"
+  }
+}
