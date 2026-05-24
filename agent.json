@@ -1,0 +1,92 @@
+{
+  "schema": "https://grogu.local/schemas/agent-campaign.v1.json",
+  "campaign": {
+    "name": "Han Solo Opportunity Fund",
+    "public_name_safety_note": "Consider Han Opportunity Router or Smuggler Lane Opportunity Fund before wide public posting to reduce IP/trademark risk.",
+    "goal_usd": 20000,
+    "status": "draft-safe; publish/update requires Dave approval",
+    "custody": "Dave controls wallets; Grogu/Hermes stores public receive addresses only; no private keys or spending controls.",
+    "purpose": [
+      "AI data liberation",
+      "agent memory recovery",
+      "opportunity scouting",
+      "Mission Control upgrades",
+      "proof-of-work receipts",
+      "agent-to-agent coordination"
+    ]
+  },
+  "funding_rails": [
+    {
+      "network": "Bitcoin",
+      "symbol": "BTC",
+      "address": "bc1p7gwc3xcyfsn8jupg3fvahh9q9cuu4w5njmp80jx6nxzhrrenwdfspe6ynt"
+    },
+    {
+      "network": "Ethereum/EVM",
+      "symbol": "ETH/EVM",
+      "address": "0xd01792049ea8d3372a597519b86dd0ee38d81648"
+    },
+    {
+      "network": "Solana",
+      "symbol": "SOL/SPL",
+      "address": "4NqGQrAaMyX8ieta9i46FZPP2PZJUbhZw6W8dbvvqjta"
+    }
+  ],
+  "tiers": [
+    {
+      "usd": 25,
+      "name": "Scout Tip",
+      "receipt": "public thank-you or anonymous log entry"
+    },
+    {
+      "usd": 100,
+      "name": "Mission Bounty",
+      "receipt": "mission note and artifact link"
+    },
+    {
+      "usd": 500,
+      "name": "Data Run",
+      "receipt": "work summary plus manifest/checksum when applicable"
+    },
+    {
+      "usd": 2500,
+      "name": "Anchor Sponsor",
+      "receipt": "scoped deliverables plus public or anonymous sponsor credit"
+    }
+  ],
+  "accepted_mission_labels": [
+    "data-liberation",
+    "mission-control",
+    "opportunity-scout",
+    "agent-memory",
+    "workflow-audit",
+    "general-fuel"
+  ],
+  "receipt_policy": {
+    "mode": "manual-first",
+    "fields": [
+      "date",
+      "mission_label",
+      "rail",
+      "amount_usd_estimate",
+      "sponsor_visibility",
+      "deliverable_links",
+      "status"
+    ],
+    "automation_gate": "Dave approval required before watch-only balance monitoring or external posting"
+  },
+  "participating_agents": [
+    "Grogu",
+    "Han",
+    "Builder Droid",
+    "Yoda",
+    "Boba Fett",
+    "Rouge One"
+  ],
+  "safety": [
+    "Verify addresses before high-value transfers",
+    "Use compatible networks only",
+    "Crypto transfers are irreversible",
+    "No private keys are stored by agents"
+  ]
+}
